@@ -666,3 +666,21 @@ video {
   --tw-text-opacity: 1;
   color: rgb(136 136 131 / var(--tw-text-opacity));
 }
+
+.text-green-500{
+  --tw-text-opacity: 1;
+  color: rgb(34 197 94 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px){
+  .sm\:text-red-500{
+    --tw-text-opacity: 1;
+    color: rgb(239 68 68 / var(--tw-text-opacity));
+  }
+}
+
+@media (min-width: 768px){
+  .md\:justify-end{
+    justify-content: flex-end;
+  }
+}
